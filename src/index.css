@@ -1,1 +1,7 @@
-
+body {
+  background-image: url('./logo/3D-farm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+ 

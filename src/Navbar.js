@@ -29,10 +29,10 @@ export default function Navbar () {
             Dropdown
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item text-light" href="#">Action</a></li>
-            <li><a className="dropdown-item text-light" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider text-light"/></li>
-            <li><a className="dropdown-item text-light" href="#">Something else here</a></li>
+            <li><a className="dropdown-item text-primary" href="#">Action</a></li>
+            <li><a className="dropdown-item text-primary" href="#">Another action</a></li>
+            <li><hr className="dropdown-divider text-primary"/></li>
+            <li><a className="dropdown-item text-primary" href="#">Something else here</a></li>
           </ul>
         </li>
         <li className="nav-item">

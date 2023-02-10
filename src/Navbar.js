@@ -1,6 +1,7 @@
 import React from 'react';
 import evergreen from './logo/evergreen.jpg';
 import './Navbar.css';
+import LogIn from './container/LogIn';
 
 export default function Navbar () {
     return (
@@ -22,7 +23,7 @@ export default function Navbar () {
           <a className="nav-link active text-light" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-light" href="#">Link</a>
+          <a className="nav-link text-light" href={LogIn}>Log In</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
